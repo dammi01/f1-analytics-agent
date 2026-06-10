@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+
+# Data (large files)
+data/raw/
+data/duckdb/*.duckdb
+
+# dbt
+src/dbt/target/
+src/dbt/logs/
+src/dbt/.user.yml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
